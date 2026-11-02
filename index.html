@@ -710,6 +710,7 @@
             <!-- زر القائمة -->
             <button id="menuBtn" onclick="toggleMenu()" style="display: none; background: none; border: none; color: var(--fg); font-size: 1.5rem; cursor: pointer; padding: 8px;" class="md:hidden" aria-label="فتح القائمة">
                 <i class="fas fa-bars"></i>
+                
             </button>
         </div>
     </nav>
@@ -724,6 +725,13 @@
         <a href="#timeline" onclick="toggleMenu()">المسيرة</a>
         <a href="#landmarks" onclick="toggleMenu()">المعالم</a>
         <a href="#gallery" onclick="toggleMenu()">المعرض</a>
+        <button
+    type="button"
+    onclick="openAuthModal()"
+    class="btn-primary"
+>
+    تسجيل الدخول
+</button>
         <a href="#contact" onclick="toggleMenu()">تواصل معنا</a>
     </div>
 
@@ -956,6 +964,7 @@
                             <span style="color: var(--accent); font-weight: 700; font-size: 0.85rem;">570 - 632 م</span>
                             <h3 style="font-size: 1.15rem; font-weight: 700; margin: 8px 0;">البعثة النبوية</h3>
                             <p style="color: var(--fg-muted); font-size: 0.9rem; line-height: 1.7;">نشأة الإسلام في شبه الجزيرة العربية وبزوغ فجر حضارة جديدة غيّرت مجرى التاريخ البشري بأكمله.</p>
+                               <a href="https://www.alukah.net/sharia/0/157477/%D8%A8%D8%B9%D8%AB%D8%A9-%D8%A7%D9%84%D9%86%D8%A8%D9%8A-%D8%B5%D9%84%D9%89-%D8%A7%D9%84%D9%84%D9%87-%D8%B9%D9%84%D9%8A%D9%87-%D9%88%D8%B3%D9%84%D9%85-%D8%A5%D8%AD%D8%B3%D8%A7%D9%86-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D9%86/" target="_blank"  class= "bg-blue-500 round-full">البعثة البوية</a>
                         </div>
                     </div>
                     <div class="md:hidden" style="margin-right: 50px; width: 100%;">
@@ -975,6 +984,8 @@
                             <span style="color: var(--accent); font-weight: 700; font-size: 0.85rem;">661 - 750 م</span>
                             <h3 style="font-size: 1.15rem; font-weight: 700; margin: 8px 0;">العصر الأموي</h3>
                             <p style="color: var(--fg-muted); font-size: 0.9rem; line-height: 1.7;">تأسيس أول إمبراطورية إسلامية واسعة، وبناء قبة الصخرة والمسجد الأموي، وبدء حركة الترجمة العلمية.</p>
+                             <a href="https://zuolfa.com/%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%88%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D9%82%D9%88%D8%B7/" target="_blank" class="bg-blue-500 round-full" >العصر الاموي</a>
+                        
                         </div>
                     </div>
                     <div class="md:hidden" style="margin-right: 50px; width: 100%;">
@@ -994,6 +1005,7 @@
                             <span style="color: var(--accent); font-weight: 700; font-size: 0.85rem;">750 - 1258 م</span>
                             <h3 style="font-size: 1.15rem; font-weight: 700; margin: 8px 0;">العصر العباسي الذهبي</h3>
                             <p style="color: var(--fg-muted); font-size: 0.9rem; line-height: 1.7;">العصر الذهبي للحضارة الإسلامية: تأسيس بيت الحكمة، وترجمة العلوم، وابتكار الجبر والخوارزميات على يد ابن موسى الخوارزمي.</p>
+                              <a href="https://www.ajnet.me/history/2021/5/31/%D8%A8%D9%8A%D8%AA-%D8%A7%D9%84%D8%AD%D9%83%D9%85%D8%A9-%D9%85%D9%86%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%83%D9%88%D9%86-%D9%88%D9%85%D9%84%D8%A7%D8%B0-%D8%A7%D9%84%D8%B9%D9%84%D9%85-%D9%88%D8%A7%D9%84" target="_blank"  class="bg-blue-500 round-full">العصرر العباسي الذهبي</a>
                         </div>
                     </div>
                     <div class="md:hidden" style="margin-right: 50px; width: 100%;">
@@ -1013,6 +1025,7 @@
                             <span style="color: var(--accent); font-weight: 700; font-size: 0.85rem;">711 - 1492 م</span>
                             <h3 style="font-size: 1.15rem; font-weight: 700; margin: 8px 0;">حضارة الأندلس</h3>
                             <p style="color: var(--fg-muted); font-size: 0.9rem; line-height: 1.7;">نموذج فريد من التعايش الحضاري وبناء قصر الحمراء وقرطبة التي كانت أكبر مدينة في أوروبا ومركزاً للعلم والنور.</p>
+                             <a href="https://www.ajnet.me/blogs/2016/12/25/%D8%B1%D8%AD%D9%84%D8%A9-%D8%B3%D9%81%D8%B1-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%B2%D9%85%D9%86-%D8%A5%D9%84%D9%89-%D8%AD%D8%B6%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A3%D9%86%D8%AF%D9%84%D8%B3" target="_blank" class="bg-blue-500 round-full">حضارة الاندلس</a>
                         </div>
                     </div>
                     <div class="md:hidden" style="margin-right: 50px; width: 100%;">
@@ -1032,6 +1045,7 @@
                             <span style="color: var(--accent); font-weight: 700; font-size: 0.85rem;">1299 - 1922 م</span>
                             <h3 style="font-size: 1.15rem; font-weight: 700; margin: 8px 0;">الدولة العثمانية</h3>
                             <p style="color: var(--fg-muted); font-size: 0.9rem; line-height: 1.7;">إمبراطورية امتدت across ثلاث قارات، وتركيت إرثاً معمارياً ضخماً includes المسجد الأزرق ومسجد سليمانية.</p>
+                            <a href="https://www.ajnet.me/encyclopedia/2022/11/1/%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%B9%D8%AB%D9%85%D8%A7%D9%86%D9%8A%D8%A9-%D9%83%D9%8A%D9%81-%D8%AD%D9%88%D9%84-%D8%B9%D8%AB%D9%85%D8%A7%D9%86-%D8%A7%D8%A8%D9%86" target="_blank" class="bg-blue-500 round-full">الدولة العثمانية</a>
                         </div>
                     </div>
                     <div class="md:hidden" style="margin-right: 50px; width: 100%;">
@@ -1314,7 +1328,8 @@
 
 </form>
 
-
+</div>
+</section>
     <!-- الفوتر -->
     <footer style="padding: 60px 24px 30px; border-top: 1px solid var(--border);">
         <div style="max-width: 1280px; margin: 0 auto;">
@@ -1396,16 +1411,26 @@
 <!-- Main JavaScript -->
 <script>
     // باقي كود موقعك
+// ==========================================
+// 1. SUPABASE SETUP
+// ==========================================
 
-    const SUPABASE_URL = 'https://kcqayofeqwtslifowzoe.supabase.co';
-    const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtjcWF5b2ZlcXd0c2xpZm93em9lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTM1NDM3NzAsImV4cCI6MjEwOTExOTc3MH0.QbAomSYPi0qPKkeuqHVSKC-liYQtihfuWtQW2MysUSE';
+const SUPABASE_URL = 'https://kcqayofeqwtslifowzoe.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtjcWF5b2ZlcXd0c2xpZm93em9lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTM1NDM3NzAsImV4cCI6MjEwOTExOTc3MH0.QbAomSYPi0qPKkeuqHVSKC-liYQtihfuWtQW2MysUSE'
 
-    const supabaseClient = window.supabase.createClient(
-        SUPABASE_URL,
-        SUPABASE_KEY
-    );
-    console.log("Supabase Connected Successfully");
-    async function testSupabase() {
+const supabaseClient = window.supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_KEY
+);
+
+console.log('Supabase Connected Successfully');
+
+
+// ==========================================
+// 2. DATABASE TEST
+// ==========================================
+
+async function testSupabase() {
     const { data, error } = await supabaseClient
         .from('messages')
         .select('*');
@@ -1419,26 +1444,25 @@
     console.log(data);
 }
 
-
 testSupabase();
 
-// === نظام تسجيل الدخول وإنشاء الحساب ===
+
+// ==========================================
+// 3. AUTHENTICATION
+// ==========================================
 
 let isLoginMode = true;
 
-// فتح نافذة تسجيل الدخول
 function openAuthModal() {
     document.getElementById('authModal').classList.add('active');
     document.body.style.overflow = 'hidden';
 }
 
-// إغلاق النافذة
 function closeAuthModal() {
     document.getElementById('authModal').classList.remove('active');
     document.body.style.overflow = '';
 }
 
-// التبديل بين الدخول وإنشاء الحساب
 function switchAuthMode(e) {
     e.preventDefault();
 
@@ -1457,11 +1481,10 @@ function switchAuthMode(e) {
 
     document.getElementById('authSwitch').innerHTML =
         isLoginMode
-        ? 'ليس لديك حساب؟ <a href="#" onclick="switchAuthMode(event)">إنشاء حساب</a>'
-        : 'لديك حساب بالفعل؟ <a href="#" onclick="switchAuthMode(event)">تسجيل الدخول</a>';
+            ? 'ليس لديك حساب؟ <a href="#" onclick="switchAuthMode(event)">إنشاء حساب</a>'
+            : 'لديك حساب بالفعل؟ <a href="#" onclick="switchAuthMode(event)">تسجيل الدخول</a>';
 }
 
-// تنفيذ التسجيل أو تسجيل الدخول
 async function handleAuth(e) {
     e.preventDefault();
 
@@ -1473,13 +1496,13 @@ async function handleAuth(e) {
 
     if (isLoginMode) {
         result = await supabaseClient.auth.signInWithPassword({
-            email: email,
-            password: password
+            email,
+            password
         });
     } else {
         result = await supabaseClient.auth.signUp({
-            email: email,
-            password: password,
+            email,
+            password,
             options: {
                 data: {
                     full_name: name
@@ -1496,49 +1519,223 @@ async function handleAuth(e) {
     if (isLoginMode) {
         showToast('تم تسجيل الدخول بنجاح');
         closeAuthModal();
+        await updateAuthButton();
     } else {
         showToast('تم إنشاء الحساب! تحقق من بريدك الإلكتروني إذا طُلب منك ذلك.');
     }
 
     e.target.reset();
 }
-async function updateAuthButton() {
-    const { data: { user } } = await supabaseClient.auth.getUser();
+
+
+// ==========================================
+// 4. ADMIN MESSAGES
+// ==========================================
+
+let selectedMessageId = null;
+
+async function loadAdminMessages() {
+    const container = document.getElementById('adminMessages');
+
+    if (!container) return;
+
+    container.textContent = 'جاري تحميل الرسائل...';
+
+    const { data: messages, error } = await supabaseClient
+        .from('messages')
+        .select('*')
+        .order('created_at', { ascending: false });
+
+    if (error) {
+        container.textContent = 'حدث خطأ أثناء تحميل الرسائل: ' + error.message;
+        return;
+    }
+
+    container.replaceChildren();
+
+    if (!messages || messages.length === 0) {
+        container.textContent = 'لا توجد رسائل حتى الآن.';
+        return;
+    }
+
+    messages.forEach(message => {
+        const card = document.createElement('div');
+        card.className = 'branch-card';
+
+        const name = document.createElement('h3');
+        name.textContent = 'الاسم: ' + message.name;
+
+        const email = document.createElement('p');
+        email.textContent = 'البريد: ' + message.email;
+
+        const subject = document.createElement('p');
+        subject.textContent = 'الموضوع: ' + message.subject;
+
+        const content = document.createElement('p');
+        content.textContent = 'الرسالة: ' + message.message;
+
+        const status = document.createElement('p');
+        status.textContent = 'الحالة: ' + message.status;
+
+        const replyButton = document.createElement('button');
+        replyButton.type = 'button';
+        replyButton.className = 'btn-primary';
+        replyButton.textContent = 'الرد على الرسالة';
+
+        replyButton.addEventListener('click', () => {
+            selectedMessageId = message.id;
+
+            document.getElementById('adminReplyBox').style.display = 'block';
+            document.getElementById('adminReplyText').value = '';
+
+            document.getElementById('adminReplyBox')
+                .scrollIntoView({ behavior: 'smooth' });
+        });
+
+        card.append(name, email, subject, content, status, replyButton);
+        container.appendChild(card);
+    });
+}
+
+
+// ==========================================
+// 5. SEND ADMIN REPLY
+// ==========================================
+
+async function sendAdminReply() {
+    if (!selectedMessageId) {
+        showToast('اختر رسالة أولاً');
+        return;
+    }
+
+    const replyText = document.getElementById('adminReplyText').value.trim();
+
+    if (!replyText) {
+        showToast('اكتب الرد أولاً');
+        return;
+    }
+
+    const { data: { user }, error: authError } =
+        await supabaseClient.auth.getUser();
+
+    if (authError || !user) {
+        showToast('سجّل الدخول أولاً');
+        return;
+    }
+
+    const { error } = await supabaseClient
+        .from('replies')
+        .insert({
+            message_id: selectedMessageId,
+            admin_id: user.id,
+            body: replyText
+        });
+
+    if (error) {
+        console.error(error);
+        showToast('تعذر إرسال الرد: ' + error.message);
+        return;
+    }
+
+    showToast('تم إرسال الرد بنجاح');
+
+    document.getElementById('adminReplyText').value = '';
+    document.getElementById('adminReplyBox').style.display = 'none';
+
+    selectedMessageId = null;
+
+    await loadAdminMessages();
+}
+
+
+// ==========================================
+// 6. UPDATE AUTH BUTTON & CHECK ADMIN
+// ==========================================
+
+async function updateAuthButton(currentUser) {
+    let user = currentUser;
+
+    if (arguments.length === 0) {
+        const { data, error } = await supabaseClient.auth.getUser();
+
+        if (error) {
+            console.error(error);
+            return;
+        }
+
+        user = data.user;
+    }
 
     const authButton = document.getElementById('authNavButton');
+    const dashboard = document.getElementById('adminDashboard');
 
-    if (user) {
-        const username =
-            user.user_metadata?.full_name ||
-            user.email;
+    if (authButton) {
+        if (!user) {
+            authButton.textContent = 'تسجيل الدخول';
+            authButton.onclick = openAuthModal;
+        } else {
+            authButton.textContent =
+                user.user_metadata?.full_name || user.email;
 
-        authButton.textContent = username;
-        authButton.onclick = () => {
-            if (confirm('هل تريد تسجيل الخروج؟')) {
-                logout();
-            }
-        };
-    } else {
-        authButton.textContent = 'تسجيل الدخول';
-        authButton.onclick = openAuthModal;
+            authButton.onclick = () => {
+                if (confirm('هل تريد تسجيل الخروج؟')) {
+                    logout();
+                }
+            };
+        }
+    }
+
+    if (!user) {
+        if (dashboard) dashboard.style.display = 'none';
+        return;
+    }
+
+    const { data: profile, error } = await supabaseClient
+        .from('profiles')
+        .select('role')
+        .eq('id', user.id)
+        .single();
+
+    if (error || !profile || profile.role !== 'admin') {
+        if (dashboard) dashboard.style.display = 'none';
+        return;
+    }
+
+    if (dashboard) {
+        dashboard.style.display = 'block';
+        await loadAdminMessages();
     }
 }
+
+
+// ==========================================
+// 7. LOGOUT
+// ==========================================
 
 async function logout() {
     const { error } = await supabaseClient.auth.signOut();
 
     if (error) {
+        console.error(error);
         showToast(error.message);
         return;
     }
 
     showToast('تم تسجيل الخروج بنجاح');
-    updateAuthButton();
+    await updateAuthButton(null);
 }
-supabaseClient.auth.onAuthStateChange(() => {
-    updateAuthButton();
+
+
+// ==========================================
+// 8. AUTH STATE LISTENER
+// ==========================================
+
+supabaseClient.auth.onAuthStateChange((event, session) => {
+    updateAuthButton(session?.user ?? null);
 });
+
 updateAuthButton();
+
 </script>
     <script>
         
@@ -1718,11 +1915,60 @@ updateAuthButton();
         }
 
         // === إرسال النموذج ===
-        function handleSubmit(e) {
-            e.preventDefault();
-            showToast('تم إرسال رسالتك بنجاح. شكراً لتواصلك!');
-            e.target.reset();
+        
+async function handleSubmit(e) {
+    e.preventDefault();
+
+    const form = e.currentTarget;
+    const submitButton = form.querySelector('[type="submit"]');
+
+    try {
+        if (submitButton) {
+            submitButton.disabled = true;
         }
+
+        // التأكد من تسجيل دخول المستخدم
+        const { data: { user }, error: authError } =
+            await supabaseClient.auth.getUser();
+
+        if (authError) throw authError;
+
+        if (!user) {
+            showToast('من فضلك سجّل الدخول أولاً');
+            openAuthModal();
+            return;
+        }
+
+        // تجهيز بيانات الرسالة
+        const messageData = {
+            user_id: user.id,
+            name: document.getElementById('name').value.trim(),
+            email: document.getElementById('email').value.trim(),
+            subject: document.getElementById('subject').value,
+            message: document.getElementById('message').value.trim(),
+            status: 'pending'
+        };
+
+        // حفظ الرسالة في Supabase
+        const { error } = await supabaseClient
+            .from('messages')
+            .insert(messageData);
+
+        if (error) throw error;
+
+        showToast('تم إرسال رسالتك بنجاح. شكراً لتواصلك!');
+        form.reset();
+
+    } catch (error) {
+        console.error('Message Error:', error);
+        showToast(error.message || 'حدث خطأ أثناء إرسال الرسالة');
+    } finally {
+        if (submitButton) {
+            submitButton.disabled = false;
+        }
+    }
+}
+
 
         // === تمرير سلس للروابط ===
         document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
@@ -1794,5 +2040,68 @@ updateAuthButton();
     </div>
 </div>
 
+<!-- Admin Dashboard -->
+<section id="adminDashboard" style="display: none; padding: 120px 5% 60px; min-height: 100vh;">
+
+    <div class="max-w-6xl mx-auto">
+
+        <h1 class="text-3xl font-bold mb-3" style="color: var(--accent);">
+            لوحة تحكم المسؤول
+        </h1>
+
+        <p class="mb-8" style="color: var(--fg-muted);">
+            إدارة رسائل الزوار والرد عليها
+        </p>
+
+        <div id="adminMessages" class="grid gap-5">
+            <p>جاري تحميل الرسائل...</p>
+        </div>
+
+        <div id="adminReplyBox" style="display: none; margin-top: 30px;">
+            <h2 class="text-xl font-bold mb-4">الرد على الرسالة</h2>
+
+            <textarea
+                id="adminReplyText"
+                class="form-input"
+                rows="5"
+                placeholder="اكتب ردك هنا..."
+            ></textarea>
+
+            <button
+                type="button"
+                class="btn-primary mt-4"
+                onclick="sendAdminReply()"
+            >
+                إرسال الرد
+            </button>
+        </div>
+
+    </div>
+</section>
+<!-- نافذة تسجيل الدخول -->
+<div id="authModal">
+    <!-- محتوى نافذة تسجيل الدخول الحالي كما هو -->
+</div>
+
+<!-- لوحة الإدارة -->
+<section id="adminDashboard">
+    <!-- محتوى لوحة الإدارة الحالي كما هو -->
+</section>
+
+<!-- Supabase Library -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<!-- Script 1: Supabase + Authentication + Admin -->
+<script>
+    // كود Supabase الحالي بالكامل
+</script>
+
+<!-- Script 2: Main JavaScript -->
+<script>
+    // كود الموقع الحالي بالكامل
+</script>
+
+</body>
+</html>
 </body>
 </html>
